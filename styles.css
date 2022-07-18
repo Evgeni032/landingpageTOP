@@ -3,12 +3,15 @@ body{
     height: 100vh;
     flex-direction: column;
     margin: 0;
+    font-family: "Roboto",sans-serif;
+    overflow: auto;
 }
 
 .up{
     background: #1F2937 ;
      display: flex;
-     height: 140px;
+    min-height: 530px;
+    flex-direction: column;
     
     }
 
@@ -16,35 +19,30 @@ body{
 .header{
     display: flex;
     background: #1F2937 ;
-    border: 1px solid rgb(0, 0, 0);
-    height: 120px;
-    width: 120px;
-    flex: 1;
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 140px;
     justify-content: space-between;
+    margin-top: 20px;
+    
+    
 
 }
 
 .logo{
     display: flex;
     background: #1F2937 ;
-    /* background-color: beige; */
-    margin: 16px;
-    padding: 16px;
-    align-items: center;
     font-size: 24px;
-    color: wheat;
-    margin-left: 64px;
+    color: #F9FAF8;
+    margin-left: 200px;
+    
 }
 
 .linkove{
     display: flex;
     background: #1F2937 ;
-    /* background-color: beige; */
-    margin: 16px;
-    padding: 16px;
-    align-items: center;
     font-size: 18px;
-    margin-right: 64px;
+    margin-right: 200px;
+    
 
 }
 
@@ -52,11 +50,203 @@ ul{
 
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     gap: 50px;
+    margin-top: 0;
+    
 }
 
 a{
    text-decoration: none;
    color: white;
+}
+
+.sreda{
+    display: flex;
+    background: #1F2937 ;
+    height: 400px;
+    justify-content: space-between;
+    flex: 0;
+    
+}
+.card{
+    display: flex;
+    /* background: wheat; */
+    /* height: 150px; */
+    flex-direction: column;
+    background: #1F2937;
+    /* justify-content: center; */
+    margin-left: 200px;
+    /* margin-bottom: auto; */
+    
+ 
+}
+ 
+.golqm{
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+    width: 350px;
+    color: #F9FAF8;
+}
+
+.maluk{
+    display: flex;
+    font-size: 18px;
+    width: 450px;
+    font-weight:lighter;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+button{
+    display: flex;
+    background: #3882F6;
+    width: 130px;
+    height: 37px;
+    border-radius: 8px;
+    border: #3882F6;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E5E7EB;
+    margin-top: 20px;
+}
+
+.snimka{
+    display: flex;
+    background: grey;
+    height:235px;
+    width: 515px;
+    color:  white;
+    justify-content: center;
+    align-items: center;
+    margin-right: 180px;
+
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    background-color: aqua;
+}
+
+.belo{
+    display: flex;
+    background-color: #F9FAF8;
+    height: 490px;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.info{
+    margin-top: 60px;
+    font-size: 36px;
+    font-weight: 900;
+    
+}
+
+.kvadrati{
+    display: flex;
+    margin-top: 60px;
+     gap: 50px;
+     margin-bottom: 120px;
+}
+
+.kv{
+    display: flex;
+    border: 4px solid #3882F6;
+    height: 165px;
+    width: 165px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.t{
+    display: flex;
+    max-width: 165px;
+    text-align: center;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.sivo{
+    display: flex;
+    height: 420px;
+    background: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #1F2937;
+}
+
+.cit{
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.koi{
+    
+    margin-top: 8px;
+    
+    width: 400px;
+    margin-left: auto;
+}
+
+.ctas{
+    display: flex;
+    height: 345px;
+    background: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+}
+
+.sin{
+    display: flex;
+    height: 150px;
+    width: 1000px;
+    background: #3882F6;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.gluposti{
+    display: flex;
+    background-color: #3882F6;
+    flex-direction: column;
+
+}
+
+.bi{}
+
+.sm{
+    font-weight: 100;
+    font-size: 18px;
+}
+
+
+.kop{
+    margin-top:0; 
+    border: 1px solid #F9FAF8;
+}
+
+.footer{
+    display: flex;
+    height: 100px;
+    background: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
 }
